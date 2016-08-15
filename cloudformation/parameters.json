@@ -1,0 +1,42 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "MdaDemo2",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "dev",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "S3DeploymentBucketName",
+    "ParameterValue": "dliggat-deployments",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "S3DeploymentFileKey",
+    "ParameterValue": "/lambda/mdademo.zip",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "ScheduleExpression",
+    "ParameterValue": "rate(24 hours)",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "Runtime",
+    "ParameterValue": "python3.6",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "Timeout",
+    "ParameterValue": "300",
+    "UsePreviousValue": false
+  },
+  {
+    "ParameterKey": "MemorySize",
+    "ParameterValue": "256",
+    "UsePreviousValue": false
+  }
+]

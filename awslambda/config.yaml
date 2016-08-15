@@ -1,0 +1,22 @@
+# Static config - everything here is available verbatim in configuration().
+
+a_string: a_value
+another_string: another_value
+
+other_config:
+  - a
+  - list
+  - of
+  - values
+
+env:
+  $EnvironmentName
+
+
+# Dynamic config - keys with a `parameterstore` prefix will be looked up
+# in SSM ParameterStore, and transparently decrypted (if this is both
+# necessary, and available to the executing role via KMS permissioning).
+
+# parameterstore_name: /$ProjectName/$EnvironmentName/name
+# parameterstore_bar: other.key.goes.here
+# parameterstore_baz: this.one.has.an.$EnvironmentName
